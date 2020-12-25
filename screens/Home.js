@@ -49,7 +49,7 @@ const Home = (props)=>{
            <View style={{alignItems:"center"}}>
                <Title 
                style={{
-                   color:'#00aaff',
+                   color:'#800000',
                    marginTop:30,
                    fontSize:30
                }}>
@@ -70,19 +70,19 @@ const Home = (props)=>{
                margin:5,
                padding:12
            }}>
-           <Title style={{color:"#00aaff"}}>Temperature - {info.temp}</Title>
+           <Title style={{color:"#800000"}}>Temperature - {info.temp}</Title>
            </Card>
            <Card style={{
                margin:5,
                padding:12
            }}>
-           <Title style={{color:"#00aaff"}}>Humidity - {info.humidity}</Title>
+           <Title style={{color:"#800000"}}>Humidity - {info.humidity}</Title>
            </Card>
            <Card style={{
                margin:5,
                padding:12
            }}>
-           <Title style={{color:"#00aaff"}}>Description-  {info.desc}</Title>
+           <Title style={{color:"#800000"}}>Description-  {info.desc}</Title>
            </Card>
         </View>
     )
