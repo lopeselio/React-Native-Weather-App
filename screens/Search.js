@@ -3,7 +3,7 @@ import { TextInput,Button,Card} from 'react-native-paper';
 import {View,Text,FlatList} from 'react-native'
 import Header from './Header'
 import AsyncStorage from '@react-native-community/async-storage';
-import IonIcon from 'react-native-vector-icons/Ionicons'
+// import IonIcon from 'react-native-vector-icons/Ionicons'
 
 export default Search =({navigation})=> {
     const [city,setCity] = useState('')
